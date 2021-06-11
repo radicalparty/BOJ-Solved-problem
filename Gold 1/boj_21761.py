@@ -1,3 +1,5 @@
+#Greedy, PriorityQueue, Geometry
+#그리디적으로 풀었을때 넓이가 최대가 됨을 증명
 import sys, heapq
 def func(a, b, c, d):
     round1 = ([a, "A"] if a >= b else [b, "B"])

@@ -1,4 +1,5 @@
 #(왼쪽으로 10번 회전 == 회전하지 않은 상태)임을 알아내고 풀어야 하는 dp 문제
+#처음에 왼쪽으로 돌릴 때 숫자가 작아진다고 착각해서 고생했던 문제
 import sys
 n = int(sys.stdin.readline())
 dp = [[float('inf') for _ in range(10)] for _ in range(n + 1)]#n번째 나사가 총 i번 돌려졌을 때 돌려진 최솟값(i = i % 10)

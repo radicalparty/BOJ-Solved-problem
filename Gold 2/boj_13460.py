@@ -1,3 +1,4 @@
+#BFS(Breadth first Search)임은 쉽게 알 수 있으나 구현이 힘들었던 문제
 import sys
 from collections import deque
 n, m = map(int, sys.stdin.readline().split())

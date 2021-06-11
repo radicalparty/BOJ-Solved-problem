@@ -1,3 +1,4 @@
+#dp[i][j] = i - j구간이 팰린드롬인지 검사
 import sys
 n = int(sys.stdin.readline())
 num = [0] + list(map(int, sys.stdin.readline().split()))

@@ -1,3 +1,5 @@
+#Dynamic Programming
+#초반에 가장 위에만 있을때 상승 -> 하강 변화가 가능했다고 믿었던 실수
 import sys
 n, m = map(int, sys.stdin.readline().split())
 if n == m == 1:

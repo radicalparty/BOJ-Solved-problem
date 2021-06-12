@@ -1,4 +1,4 @@
-#dp[i][j] = i - j구간이 팰린드롬인지 검사
+#dp[i][j] = i - j구간이 팰린드롬인지 검사 후 ans[i] = i까지 있는 최대 팰린드롬 수를 O((n ^ 2 / 2) + (n / 2))(시간 복잡도는 계수를 무시하나 편리를 위해..) 안에 계산 후 정답 출력 
 import sys
 n = int(sys.stdin.readline())
 num = [0] + list(map(int, sys.stdin.readline().split()))

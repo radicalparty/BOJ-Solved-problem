@@ -1,4 +1,5 @@
-#BFS(Breadth first Search)임은 쉽게 알 수 있으나 구현이 힘들었던 문제
+#BFS(Breadth first Search), Brute Force(10이상은 -1로 처리한다는 조건에 의해)임은 쉽게 알 수 있으나 구현이 힘들었던 문제
+#4^10번을 검사해서 bfs를 실행, 두 구슬 전부 움직이지 않는 경우와 visit[rx][ry][bx][by]라는 4차원 배열로 중복을 처리하면 많은 경우를 실행하지 않아도 됨
 import sys
 from collections import deque
 n, m = map(int, sys.stdin.readline().split())

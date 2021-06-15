@@ -127,6 +127,3 @@ def answer(x, y, x1, y1):
                 queue.append([d + 1, xr, yr, xb, yb])
     return -1
 print(answer(rx, ry, bx, by))
-#구현이 까다로운 bfs문제
-#사차원 배열 쓰면 메모리 더 나갈줄 알았는데 중복된 부분 넘어가서 큐에 무리 안가고 10 ^ 4 = 10000이라서 시간 + 메모리 절약됨
-#처음에 rx를 bx로 착각해서 틀림

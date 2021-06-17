@@ -1,6 +1,6 @@
-#pythonÀÇ µñ¼Å³Ê¸®¸¦ µÎ°³ ¸¸µé¾î¼­ Ç¬ ¹®Á¦
-#¸¸¾à i¹øÂ°¿¡ j¶ó´Â ¹®ÀÚ¿­ÀÌ µé¾î¿À¸é dict1[i] = j, dict2[j] = i ÀÌ·± ½ÄÀ¸·Î Ç°
-#ÀÔ·ÂÀÌ ¹®ÀÚ¿­°ú ¼ýÀÚ°¡ µ¿½Ã¿¡ µé¾î¿À´Â, Áï ÀÔ·ÂÀ» ¾Ë ¼ö ¾ø´Â »óÈ²ÀÌ ³ª¿À±â ¶§¹®¿¡ try - except¹®À» »ç¿ëÇØ ÇØ°á
+#pythonì˜ ë”•ì…”ë„ˆë¦¬ë¥¼ ë‘ê°œ ë§Œë“¤ì–´ì„œ í‘¼ ë¬¸ì œ
+#ë§Œì•½ ië²ˆì§¸ì— jë¼ëŠ” ë¬¸ìžì—´ì´ ë“¤ì–´ì˜¤ë©´ dict1[i] = j, dict2[j] = i ì´ëŸ° ì‹ìœ¼ë¡œ í’ˆ
+#ìž…ë ¥ì´ ë¬¸ìžì—´ê³¼ ìˆ«ìžê°€ ë™ì‹œì— ë“¤ì–´ì˜¤ëŠ”, ì¦‰ ìž…ë ¥ì„ ì•Œ ìˆ˜ ì—†ëŠ” ìƒí™©ì´ ë‚˜ì˜¤ê¸° ë•Œë¬¸ì— try - exceptë¬¸ì„ ì‚¬ìš©í•´ í•´ê²°(type(string)ìœ¼ë¡œëŠ” ë¬¸ìžì—´ <-> ìˆ«ìžê°„ êµ¬ë³„ ë¶ˆê°€)
 import sys
 n, m = map(int, sys.stdin.readline().split())
 dictionary1 = {}

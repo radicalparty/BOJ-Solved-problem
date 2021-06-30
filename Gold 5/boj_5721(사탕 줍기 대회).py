@@ -1,6 +1,8 @@
-#dp문제인데 좀 어이 없이 푼 문제
 #예시로 중간을 처음 선택한다는 점에서 좀 혼란이 오다가 중간 줄부터 먼저 선택하든 첫 번째 세로줄 부터 선택하든 상관이 없다는 것을 깨달음
 #어쨌든 며칠 동안 고민해봐서 재밌었던 문제
+#maxcandy[i] = max(maxcandy[i - 2], maxcandy[i - 3]) + plus
+#plus = max(dp[i])
+#dp[i][j] = (i번째 줄에서 j번째 열까지 탐색했을 떄 얻는 사탕의 최댓값)
 import sys
 while True:
     n, m = map(int, sys.stdin.readline().split())
